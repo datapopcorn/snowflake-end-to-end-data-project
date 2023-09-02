@@ -1,0 +1,4 @@
+# dependencies
+streamlit
+snowflake-snowpark-python
+snowflake-snowpark-python[pandas]
