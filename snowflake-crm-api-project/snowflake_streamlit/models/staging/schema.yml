@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_user_events
+    description: ""
+    columns: 
+      - name: event_type
+        description: ""
+        tests:
+          - not_null
+      - name: user_email
+        description: ""
+        tests:
+          - not_null
+      - name: event_timestamp
+        description: ""
+        tests:
+          - not_null
+      - name: event_json
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+          
+
+

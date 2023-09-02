@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: customer
+    database: ass_db
+    schema: customer
+    tables:
+      - name: user_event
